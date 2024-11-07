@@ -1,0 +1,42 @@
+name: JanhaviFoundation
+description: 'Janhavi Foundation Application'
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+    sdk: ^3.5.1
+
+dependencies:
+    flutter:
+        sdk: flutter
+    intl: ^0.18.0
+    image_picker: ^0.8.7+4
+    cupertino_icons: ^1.0.8
+    http: ^1.2.2
+    shared_preferences: ^2.0.12
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    flutter_launcher_icons: ^0.11.0
+    flutter_lints: ^4.0.0
+    cli_util: ^0.3.5
+    image: ^3.0.2
+    leak_tracker: ^10.0.5
+    leak_tracker_flutter_testing: ^3.0.5
+    lints: ^4.0.0
+    stack_trace: ^1.11.1
+    test_api: ^0.7.2
+    vm_service: ^14.2.5
+    flutter_bloc: ^8.0.0
+    dio: ^5.1.0
+
+flutter:
+    assets:
+        - assets/logo.png
+    uses-material-design: true
+
+flutter_launcher_icons:
+    android: true
+    image_path: 'assets/logo.png'
